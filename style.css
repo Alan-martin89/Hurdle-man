@@ -1,0 +1,531 @@
+/*
+
+Original code. Placed into media queries to creat responsive site
+
+
+.ccsticky-nav {
+  width: 100%;
+  height: 60px; 
+  position: fixed; 
+  top: 0;
+  background: #3f4041;
+  }
+  
+  .ccsticky-nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  }
+  
+  .ccsticky-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  }
+  
+  .ccsticky-nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  }
+  
+  .ccsticky-nav ul li a:hover {
+  color: #34495E;
+  }
+  
+  section {
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 1024px;
+  
+  margin-top: 60px;
+  }
+  .text{
+    text-align: left;
+  }
+  .fontsize{
+    font-size: 2rem;
+  }
+  .img{
+    width: 80rem;
+    height: 80%;
+    
+  }
+  
+  .marg-top{
+    margin-top: 10rem;
+  }
+  .bigfont{
+    font-size: 8em;
+  }
+  .introfont{
+    font-size: 3em;
+  }
+  h1{
+    font-family: 'Amatic SC', cursive;
+  }*/
+ /*marg-top class used for margin top of first intro only. it is removed for mobile devices*/
+
+/*old up*/
+
+/*Mobile portrait*/
+@media (max-width: 640px) {
+  .ccsticky-nav {
+    width: 100%;
+    height: 60px; 
+    position: fixed; 
+    top: 0;
+    background: #3f4041;
+    }
+    
+    .ccsticky-nav ul {
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    }
+    
+    .ccsticky-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .ccsticky-nav ul li a {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    }
+    
+    .ccsticky-nav ul li a:hover {
+    color: #34495E;
+    }
+    
+    section {
+    width: 100%;
+    padding: 50px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 600px;
+    }
+    h1,h2{
+      font-family: 'Amatic SC', cursive;
+    }
+    .tc{
+      text-align: center;
+    }
+    footer{
+      background-color: #3f4041;
+    }
+    .whitefont{
+      color: white;
+    }
+    .pad{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}
+
+
+/*Mobile Landscape*/
+@media (min-width:640px) and (max-width: 768px) {
+  .bigfont{
+    font-size: 4rem;
+  }
+  .introfont{
+    font-size: large;
+  }
+  .marg-top{
+    margin-top: 0%;
+  }
+  .ccsticky-nav {
+    width: 100%;
+    height: 60px; 
+    position: fixed; 
+    top: 0;
+    background: #3f4041;
+    }
+    
+    .ccsticky-nav ul {
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    }
+    
+    .ccsticky-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .ccsticky-nav ul li a {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    }
+    
+    .ccsticky-nav ul li a:hover {
+    color: #34495E;
+    }
+    
+    section {
+    width: 100%;
+    padding: 50px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 1024px;
+    }
+    h1,h2{
+      font-family: 'Amatic SC', cursive;
+    }
+    .tc{
+      text-align: center;
+    }
+    footer{
+      background-color:  #3f4041;
+    }
+    .whitefont{
+      color: white;
+    }
+    .pad{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}
+
+
+
+/*Tablet Portrait*/
+@media (min-width: 768px) and (max-width:992px){
+  .bigfont{
+    font-size:  3em;
+  }
+  .introfont{
+    font-size: 2em;
+}
+.ccsticky-nav {
+  width: 100%;
+  height: 60px; 
+  position: fixed; 
+  top: 0;
+  background: #3f4041;
+  }
+  
+  .ccsticky-nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  }
+  
+  .ccsticky-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  }
+  
+  .ccsticky-nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  }
+  
+  .ccsticky-nav ul li a:hover {
+  color: #34495E;
+  }
+  
+  section {
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 1024px;
+  }
+  .marg-top{
+    margin-top: 4rem;
+  }
+ 
+  h1,h2{
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .h2marg{
+    margin-top: 2em;
+  }
+  .tc{
+    text-align: center;
+  }
+  footer{
+    background-color:  #3f4041;
+  }
+  .whitefont{
+    color: white;
+  }
+  .pad{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
+/*Tablet Portrait*/
+@media (min-width: 992px) and (max-width:1200px) {
+  .ccsticky-nav {
+    width: 100%;
+    height: 60px; 
+    position: fixed; 
+    top: 0;
+    background: #3f4041;
+    }
+    
+    .ccsticky-nav ul {
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    }
+    
+    .ccsticky-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .ccsticky-nav ul li a {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    }
+    
+    .ccsticky-nav ul li a:hover {
+    color: #34495E;
+    }
+    
+    section {
+    width: 100%;
+    padding: 50px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 800px;
+    
+    margin-top: 60px;
+    }
+    .text{
+      text-align: left;
+    }
+    .fontsize{
+      font-size: 2rem;
+    }
+    .img{
+      width: 80rem;
+      height: 80%;
+      
+    }
+    /*marg-top class used for margin top of first intro only. it is removed for mobile devices*/
+    .marg-top{
+      margin-top: 4rem;
+    }
+    .bigfont{
+      font-size: 4em;
+    }
+    .introfont{
+      font-size: 2em;
+    }
+    h1,h2{
+      font-family: 'Amatic SC', cursive;
+    }
+    .tc{
+      text-align: center;
+    }
+    footer{
+      background-color:  #3f4041;
+    }
+    .whitefont{
+      color: white;
+    }
+    .pad{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}
+
+  /*Small Laptop 13/14 inch give or take*/
+    @media (min-width: 1200px) and (max-width:1600px){
+.ccsticky-nav {
+  width: 100%;
+  height: 60px; 
+  position: fixed; 
+  top: 0;
+  background: #3f4041;
+  }
+  
+  .ccsticky-nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  }
+  
+  .ccsticky-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  }
+  
+  .ccsticky-nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  }
+  
+  .ccsticky-nav ul li a:hover {
+  color: #34495E;
+  }
+  
+  section {
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  height: 1024px;
+  
+  margin-top: 60px;
+  }
+  .text{
+    text-align: left;
+  }
+  .fontsize{
+    font-size: 2rem;
+  }
+  .img{
+    width: 80rem;
+    height: 80%;
+    
+  }
+  
+  .marg-top{
+    margin-top: 10rem;
+  }
+  .bigfont{
+    font-size: 4em;
+  }
+  .introfont{
+    font-size: 3em;
+  }
+  h1,h2{
+    font-family: 'Amatic SC', cursive;
+  }
+  .tc{
+    text-align: center;
+  }
+  footer{
+    background-color:  #3f4041;
+  }
+  .whitefont{
+    color: white;
+  }
+  .pad{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/*15inch onwards*/
+@media (min-width:1600px) {
+  .ccsticky-nav {
+    width: 100%;
+    height: 60px; 
+    position: fixed; 
+    top: 0;
+    background: #3f4041;
+    }
+    
+    .ccsticky-nav ul {
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    }
+    
+    .ccsticky-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .ccsticky-nav ul li a {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    }
+    
+    .ccsticky-nav ul li a:hover {
+    color: #34495E;
+    }
+    
+    section {
+    width: 100%;
+    padding: 50px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 1024px;
+    
+    margin-top: 60px;
+    }
+    .text{
+      text-align: left;
+    }
+    .fontsize{
+      font-size: 2rem;
+    }
+    .img{
+      width: 80rem;
+      height: 80%;
+      
+    }
+    
+    .marg-top{
+      margin-top: 10rem;
+    }
+    .bigfont{
+      font-size: 8em;
+    }
+    .introfont{
+      font-size: 3em;
+    }
+    h1,h2{
+      font-family: 'Amatic SC', cursive;
+    }
+    .tc{
+      text-align: center;
+    }
+    footer{
+      background-color:  #3f4041;
+    }
+    .whitefont{
+      color: white;
+    }
+    .pad{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}
+/*font-family: 'Amatic SC', cursive;*/
